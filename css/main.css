@@ -1,0 +1,33 @@
+nav {
+  color: white !important;
+}
+nav a {
+  color: white !important;
+}
+nav ul a {
+  color: white !important;
+  transition: 0.3s;
+}
+nav ul a:hover,
+.active {
+  color: rgb(202, 196, 196) !important;
+}
+footer {
+  color: white !important;
+}
+footer {
+  text-align: center;
+  text-transform: capitalize;
+}
+footer {
+  background-color: #252841 !important;
+  padding: 20px 0;
+  font-size: larger;
+}
+.navbar {
+  background-color: #252841 !important;
+}
+body {
+  background-color: #c8b39e;
+  font-family: "Exo 2", sans-serif;
+}

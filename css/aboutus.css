@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box !important;
+}
+p {
+  margin: 0 !important;
+}
+.cards {
+  gap: 20px 5px;
+  padding: 20px 0;
+}
+
+.card {
+  width: 27rem !important;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+}
+
+form p {
+  padding-top: 25px;
+  text-transform: capitalize;
+}
+form input {
+  padding: 5px;
+  border-radius: 6px;
+}
+textarea {
+  border-radius: 6px;
+  border: 2px solid black;
+  height: 110px;
+  resize: none;
+}

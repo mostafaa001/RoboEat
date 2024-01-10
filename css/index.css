@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box !important;
+}
+p {
+  margin: 0 !important;
+}
+.cards {
+  gap: 20px 5px;
+  padding: 20px 0;
+}
+
+.card {
+  width: 27rem !important;
+}
+footer {
+  background-color: #734444;
+  padding: 20px 0;
+  font-size: larger;
+}
+footer p {
+  text-align: center;
+}
+
+.like {
+  background-color: rgb(130, 130, 248) !important;
+  color: white;
+}
+.like:hover {
+  background-color: rgb(89, 89, 245) !important;
+  color: white;
+}
+
+.dislike {
+  background-color: rgb(246, 102, 102);
+  color: white;
+}
+.dislike:hover {
+  background-color: rgb(245, 67, 67);
+  color: white;
+}
