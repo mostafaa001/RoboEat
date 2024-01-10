@@ -35,3 +35,23 @@ textarea {
   height: 110px;
   resize: none;
 }
+section p {
+  line-height: 1.5;
+}
+section {
+  text-align: justify;
+}
+section h2 {
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px black;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main {
+  padding: 40px 0;
+}
